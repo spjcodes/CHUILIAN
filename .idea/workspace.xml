@@ -2,8 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69283ed1-59c1-4574-ab5b-bca350702a92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/Josephus/Josephus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/DijkstraEvalute/Evaluate.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/algorithms/DijkstraEvalute/Evaluate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/DijkstraEvalute/KHautoBq.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/algorithms/DijkstraEvalute/KHautoBq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/Josephus/Josephus.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/algorithms/Josephus/Josephus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/gcd/Gcd.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/algorithms/gcd/Gcd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/linkTable/LinkTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/dataStructure/linkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/linkTable/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/dataStructure/linkedList/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/queue/QueueImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/dataStructure/queue/QueueImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/sparseArray/SparseArrImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/dataStructure/sparseArray/SparseArrImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/sparseArray/files/SparseArrCode.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/dataStructure/sparseArray/files/SparseArrCode.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/stack/AutoLenthStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/dataStructure/stack/AutoLenthStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/stack/FixedCapacityStackImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/dataStructure/stack/FixedCapacityStackImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/test/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/test/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/target/classes/linkTable/LinkTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/target/classes/linkTable/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/target/classes/queue/QueueImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/target/classes/test/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructuresAndAlgorithms/target/classes/test/test.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,32 +40,40 @@
     <session id="-1985216509">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="19" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.30" value="2" />
           <entry key="project.open.time.32" value="2" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.35" value="4" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="14548" />
+          <entry key="dummy" value="10" />
+          <entry key="java" value="21768" />
+          <entry key="makedown教程" value="1215" />
           <entry key="txt" value="1" />
           <entry key="xml" value="562" />
           <entry key="yml" value="4" />
+          <entry key="顺序存储结构" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="14548" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="JAVA" value="21768" />
+          <entry key="JavaScript" value="2" />
+          <entry key="Markdown" value="1265" />
+          <entry key="PLAIN_TEXT" value="11" />
           <entry key="XML" value="562" />
           <entry key="YAML" value="4" />
         </counts>
@@ -58,18 +81,21 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="40" />
+          <entry key="java" value="65" />
+          <entry key="makedown教程" value="2" />
           <entry key="pom" value="2" />
           <entry key="properties" value="3" />
           <entry key="txt" value="7" />
           <entry key="xml" value="16" />
           <entry key="yml" value="8" />
+          <entry key="顺序存储结构" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="40" />
+          <entry key="JAVA" value="65" />
+          <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="Properties" value="3" />
           <entry key="XML" value="18" />
@@ -81,28 +107,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/payDemo/pom.xml">
+        <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/test/test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1738">
-              <caret line="79" column="3" selection-start-line="79" selection-start-column="3" selection-end-line="79" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/DijkstraEvalute/KHautoBq.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/gcd/Gcd.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+            <state relative-caret-position="264">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,55 +118,93 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/dataStructure/list/SeqList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="72" column="15" selection-start-line="72" selection-start-column="15" selection-end-line="72" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/test/A.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/dataStructure/stack/FixedCapacityStackImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/test/B.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/dataStructure/stack/AutoLenthStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/Josephus/Josephus.java">
+        <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/algorithms/stringPatternMatching/BruteForce.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="124" column="9" selection-start-line="124" selection-start-column="9" selection-end-line="124" selection-end-column="9" />
+            <state relative-caret-position="223">
+              <caret line="45" column="23" lean-forward="true" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+              <folding>
+                <element signature="e#674#675#0" expanded="true" />
+                <element signature="e#730#731#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/DijkstraEvalute/Evaluate.java">
+        <entry file="jar://E:/java/jdk/src.zip!/java/lang/String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+            <state relative-caret-position="457">
+              <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+              <folding>
+                <element signature="e#22786#22787#0" expanded="true" />
+                <element signature="e#22821#22822#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/payDemo/src/main/java/Application.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/pom.xml">
+        <entry file="jar://E:/java/jdk/src.zip!/java/lang/System.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="814">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="305">
+              <caret line="492" column="32" lean-forward="true" selection-start-line="492" selection-start-column="32" selection-end-line="492" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/src/main/java/Application.java">
+        <entry file="jar://E:/java/jdk/src.zip!/java/lang/CharSequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="239">
+              <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/payDemo/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -173,6 +219,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>sourArr</find>
+      <find>nums</find>
     </findStrings>
     <replaceStrings>
       <replace>sparseArrImpl</replace>
@@ -194,7 +241,6 @@
         <option value="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/stack/AutoLenthStack.java" />
         <option value="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/linkTable/LinkTable.java" />
         <option value="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/linkTable/Node.java" />
-        <option value="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/test/test.java" />
         <option value="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/queue/QueueImpl.java" />
         <option value="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/DijkstraEvalute/Evaluate.java" />
         <option value="$PROJECT_DIR$/payDemo/src/main/resources/application.yml" />
@@ -213,6 +259,17 @@
         <option value="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/DijkstraEvalute/KHautoBq.java" />
         <option value="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/gcd/Gcd.java" />
         <option value="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/Josephus/Josephus.java" />
+        <option value="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/linkedList/LinkedList.java" />
+        <option value="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/makedown教程" />
+        <option value="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/list/顺序存储结构" />
+        <option value="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/test/BankAccount.java" />
+        <option value="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/test/B.java" />
+        <option value="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/list/SeqList.java" />
+        <option value="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/list/Mtest.java" />
+        <option value="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/dataStructure/stack/AutoLenthStack.java" />
+        <option value="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/test/test.java" />
+        <option value="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/test/A.java" />
+        <option value="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/algorithms/stringPatternMatching/BruteForce.java" />
       </list>
     </option>
   </component>
@@ -248,13 +305,15 @@
     <option name="width" value="2425" />
     <option name="height" value="1375" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -278,13 +337,28 @@
               <item name="chuilian" type="462c0819:PsiDirectoryNode" />
               <item name="dataStructuresAndAlgorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Josephus" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chuilian" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chuilian" type="462c0819:PsiDirectoryNode" />
+              <item name="dataStructuresAndAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="stringPatternMatching" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chuilian" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chuilian" type="462c0819:PsiDirectoryNode" />
+              <item name="dataStructuresAndAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,7 +367,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596520353684" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598316081541" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../springCloudLear" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -327,26 +401,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Josephus">
-    <configuration name="AlipayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiayeli.alipay.AlipayApplication" />
-      <module name="alipay" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jiayeli.alipay.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Gcd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gcd.Gcd" />
+  <component name="RunManager" selected="Application.A">
+    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.A" />
       <module name="dataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gcd.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -354,12 +415,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Josephus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Josephus.Josephus" />
+    <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.B" />
       <module name="dataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Josephus.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -367,49 +428,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiayeli.pay.PayApplication" />
-      <module name="pay" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jiayeli.pay.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Josephus.setJosephs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BankAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.BankAccount" />
       <module name="dataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Josephus.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Josephus" />
-      <option name="MAIN_CLASS_NAME" value="Josephus.Josephus" />
-      <option name="METHOD_NAME" value="setJosephs" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.stringPatternMatching.BruteForce" />
+      <module name="dataStructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.stringPatternMatching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mtest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.list.Mtest" />
+      <module name="dataStructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructure.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AlipayApplication" />
-      <item itemvalue="Application.PayApplication" />
-      <item itemvalue="Application.Gcd" />
-      <item itemvalue="Application.Josephus" />
-      <item itemvalue="JUnit.Josephus.setJosephs" />
+      <item itemvalue="Application.BankAccount" />
+      <item itemvalue="Application.B" />
+      <item itemvalue="Application.Mtest" />
+      <item itemvalue="Application.BruteForce" />
+      <item itemvalue="Application.A" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Josephus" />
-        <item itemvalue="JUnit.Josephus.setJosephs" />
-        <item itemvalue="Application.Gcd" />
-        <item itemvalue="Application.PayApplication" />
-        <item itemvalue="Application.AlipayApplication" />
+        <item itemvalue="Application.A" />
+        <item itemvalue="Application.BruteForce" />
+        <item itemvalue="Application.Mtest" />
+        <item itemvalue="Application.B" />
+        <item itemvalue="Application.BankAccount" />
       </list>
     </recent_temporary>
   </component>
@@ -442,7 +513,10 @@
       <workItem from="1596073684032" duration="3495000" />
       <workItem from="1596102251106" duration="9882000" />
       <workItem from="1596155397926" duration="14925000" />
-      <workItem from="1596514146528" duration="6288000" />
+      <workItem from="1596514146528" duration="8458000" />
+      <workItem from="1596615102159" duration="29032000" />
+      <workItem from="1596890189288" duration="35000" />
+      <workItem from="1597738159060" duration="9486000" />
     </task>
     <servers />
   </component>
@@ -467,13 +541,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94223000" />
+    <option name="totallyTimeSpent" value="134946000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49452555" visible="true" weight="0.19839142" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49452555" visible="true" weight="0.20643431" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -483,12 +556,12 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26040268" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26040268" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42281878" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32841823" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32885906" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.22416107" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32841823" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
@@ -517,105 +590,19 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/Josephus/Josephus.java</url>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/algorithms/Josephus/Josephus.java</url>
           <line>62</line>
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jiayeli/general/common/base/test/TestUtil.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/mytest/test.java" />
-    <entry file="jar://E:/java/jdk/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45232">
-          <caret line="2131" column="32" selection-start-line="2131" selection-start-column="32" selection-end-line="2131" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/java/jdk/src.zip!/java/lang/CharSequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/stack/FixedCapacityStackImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/stack/AutoLenthStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1540">
-          <caret line="76" column="14" selection-start-line="76" selection-start-column="14" selection-end-line="76" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/linkTable/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/linkTable/LinkTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/sparseArray/SparseArrImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3762">
-          <caret line="173" column="1" selection-start-line="173" selection-end-line="173" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/queue/QueueImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/sparseArray/files/SparseArrCode.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/java/jdk/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5258">
-          <caret line="274" column="11" selection-start-line="274" selection-start-column="11" selection-end-line="274" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jiayeli/general/common/base/test/testMethods/test.java" />
-    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/test/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/dataStructuresAndAlgorithms.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/payDemo/src/main/java/service/channel/wechat/WxPayProperties.java" />
-    <entry file="file://$PROJECT_DIR$/payDemo/src/main/java/service/channel/wechat/WxPayUtil.java" />
-    <entry file="file://$PROJECT_DIR$/payDemo/src/main/java/service/IPayChannel4AliService.java" />
-    <entry file="file://$PROJECT_DIR$/payDemo/src/main/java/ctrl/PayOrderController.java" />
-    <entry file="file://$PROJECT_DIR$/payDemo/src/main/java/service/mq/Mq4PayNotify.java" />
-    <entry file="file://$PROJECT_DIR$/payDemo/src/main/java/service/impl/NotifyPayServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/payDemo/src/main/java/service/IMchInfoService.java" />
     <entry file="file://$PROJECT_DIR$/payDemo/src/main/java/service/impl/PayChannel4WxServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/payDemo/src/main/java/ctrl/QueryPayOrderController.java" />
@@ -667,24 +654,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/DijkstraEvalute/KHautoBq.java">
+    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/algorithms/DijkstraEvalute/KHautoBq.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/gcd/Gcd.java">
+    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/algorithms/gcd/Gcd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+        <state relative-caret-position="22">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/DijkstraEvalute/Evaluate.java">
+    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/algorithms/Josephus/Josephus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2728">
+          <caret line="124" column="9" selection-start-line="124" selection-start-column="9" selection-end-line="124" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/dataStructure/linkedList/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/dataStructure/linkedList/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" selection-start-line="16" selection-end-line="17" />
+          <folding>
+            <element signature="e#190#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/algorithms/DijkstraEvalute/Evaluate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
@@ -714,10 +725,163 @@
     <entry file="file://$PROJECT_DIR$/payDemo/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/Josephus/Josephus.java">
+    <entry file="jar://E:/java/jdk/src.zip!/java/lang/Double.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="124" column="9" selection-start-line="124" selection-start-column="9" selection-end-line="124" selection-end-column="9" />
+        <state relative-caret-position="175">
+          <caret line="796" column="19" selection-start-line="796" selection-start-column="19" selection-end-line="796" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/java/jdk/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="972" column="19" selection-start-line="972" selection-start-column="19" selection-end-line="972" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/java/jdk/src.zip!/java/util/Scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="2074" column="15" selection-start-line="2074" selection-start-column="15" selection-end-line="2074" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/test/BankAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="5" selection-start-line="12" selection-start-column="3" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/dataStructure/list/顺序存储结构">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="66">
+            <caret line="3" selection-start-line="3" selection-end-line="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/makedown教程">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="286">
+            <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/java/jdk/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2156">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+          <folding>
+            <element signature="e#0#33182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/dataStructure/list/Mtest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/java/jdk/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2728">
+          <caret line="147" column="19" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
+          <folding>
+            <element signature="e#5748#5749#0" expanded="true" />
+            <element signature="e#5784#5785#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/dataStructure/list/SeqList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="72" column="15" selection-start-line="72" selection-start-column="15" selection-end-line="72" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/dataStructure/stack/FixedCapacityStackImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/dataStructure/stack/AutoLenthStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/java/jdk/src.zip!/java/lang/CharSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/java/jdk/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="492" column="32" lean-forward="true" selection-start-line="492" selection-start-column="32" selection-end-line="492" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/java/jdk/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+          <folding>
+            <element signature="e#22786#22787#0" expanded="true" />
+            <element signature="e#22821#22822#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/test/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/test/B.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/test/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/algorithms/stringPatternMatching/BruteForce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="45" column="23" lean-forward="true" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+          <folding>
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
