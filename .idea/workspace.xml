@@ -1,213 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="69283ed1-59c1-4574-ab5b-bca350702a92" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/DijkstraEvalute/Evaluate.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/algorithms/DijkstraEvalute/Evaluate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/DijkstraEvalute/KHautoBq.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/algorithms/DijkstraEvalute/KHautoBq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/Josephus/Josephus.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/algorithms/Josephus/Josephus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/gcd/Gcd.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/algorithms/gcd/Gcd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/linkTable/LinkTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/dataStructure/linkedList/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/linkTable/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/dataStructure/linkedList/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/queue/QueueImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/dataStructure/queue/QueueImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/sparseArray/SparseArrImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/dataStructure/sparseArray/SparseArrImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/sparseArray/files/SparseArrCode.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/dataStructure/sparseArray/files/SparseArrCode.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/stack/AutoLenthStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/dataStructure/stack/AutoLenthStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/stack/FixedCapacityStackImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/dataStructure/stack/FixedCapacityStackImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/test/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/test/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/target/classes/linkTable/LinkTable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/target/classes/linkTable/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/target/classes/queue/QueueImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/target/classes/test/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructuresAndAlgorithms/target/classes/test/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chuilian.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/dataStructuresAndAlgorithms.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/algorithms/Josephus/Josephus.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/algorithms/Josephus/Josephus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/algorithms/stringPatternMatching/BruteForce.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/algorithms/stringPatternMatching/BruteForce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/dataStructure/list/顺序存储结构" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/dataStructure/list/顺序存储结构" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/target/classes/algorithms/stringPatternMatching/BruteForce.class" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructuresAndAlgorithms/target/classes/algorithms/stringPatternMatching/BruteForce.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/Application.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/core/target/" />
-    <ignored path="$PROJECT_DIR$/api/target/" />
-    <ignored path="$PROJECT_DIR$/server/target/" />
-    <ignored path="$PROJECT_DIR$/payDemo/target/" />
-    <ignored path="$PROJECT_DIR$/alipay/target/" />
-    <ignored path="$PROJECT_DIR$/pay/target/" />
-    <ignored path="$PROJECT_DIR$/dataStructuresAndAlgorithms/target/" />
-    <ignored path="$PROJECT_DIR$/test/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1985216509">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="19" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.30" value="2" />
-          <entry key="project.open.time.32" value="2" />
-          <entry key="project.open.time.33" value="1" />
-          <entry key="project.open.time.35" value="4" />
-          <entry key="project.open.time.38" value="1" />
-          <entry key="project.open.time.39" value="1" />
-          <entry key="project.opened" value="20" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="10" />
-          <entry key="java" value="21768" />
-          <entry key="makedown教程" value="1215" />
-          <entry key="txt" value="1" />
-          <entry key="xml" value="562" />
-          <entry key="yml" value="4" />
-          <entry key="顺序存储结构" value="52" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="21768" />
-          <entry key="JavaScript" value="2" />
-          <entry key="Markdown" value="1265" />
-          <entry key="PLAIN_TEXT" value="11" />
-          <entry key="XML" value="562" />
-          <entry key="YAML" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="iml" value="1" />
-          <entry key="java" value="65" />
-          <entry key="makedown教程" value="2" />
-          <entry key="pom" value="2" />
-          <entry key="properties" value="3" />
-          <entry key="txt" value="7" />
-          <entry key="xml" value="16" />
-          <entry key="yml" value="8" />
-          <entry key="顺序存储结构" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="65" />
-          <entry key="Markdown" value="4" />
-          <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Properties" value="3" />
-          <entry key="XML" value="18" />
-          <entry key="YAML" value="8" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/test/test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/dataStructure/list/SeqList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="72" column="15" selection-start-line="72" selection-start-column="15" selection-end-line="72" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/test/A.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/dataStructure/stack/FixedCapacityStackImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/test/B.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/dataStructure/stack/AutoLenthStack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/algorithms/stringPatternMatching/BruteForce.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="45" column="23" lean-forward="true" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
-              <folding>
-                <element signature="e#674#675#0" expanded="true" />
-                <element signature="e#730#731#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://E:/java/jdk/src.zip!/java/lang/String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-              <folding>
-                <element signature="e#22786#22787#0" expanded="true" />
-                <element signature="e#22821#22822#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://E:/java/jdk/src.zip!/java/lang/System.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="492" column="32" lean-forward="true" selection-start-line="492" selection-start-column="32" selection-end-line="492" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://E:/java/jdk/src.zip!/java/lang/CharSequence.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -227,6 +43,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -269,6 +93,8 @@
         <option value="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/dataStructure/stack/AutoLenthStack.java" />
         <option value="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/test/test.java" />
         <option value="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/test/A.java" />
+        <option value="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/algorithms/stringPatternMatching/KMP.java" />
+        <option value="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/algorithms/stringPatternMatching/MyStr.java" />
         <option value="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/algorithms/stringPatternMatching/BruteForce.java" />
       </list>
     </option>
@@ -278,6 +104,14 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="D:\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -299,12 +133,16 @@
       <select />
     </treeState>
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-15" />
     <option name="y" value="-15" />
     <option name="width" value="2425" />
     <option name="height" value="1375" />
   </component>
+  <component name="ProjectId" id="1tq9VWasqNfmDAtmTTWzcxEfF2o" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
@@ -313,7 +151,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -347,19 +184,17 @@
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="stringPatternMatching" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="chuilian" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chuilian" type="462c0819:PsiDirectoryNode" />
-              <item name="dataStructuresAndAlgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -367,47 +202,36 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598316081541" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springCloudLear" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599036633815" />
+    <property name="last_opened_file_path" value="E:/java/jdk" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.1515444" />
     <property name="project.structure.side.proportion" value="0.6816092" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\j2eeProjecet\lear\chuilian\payDemo\src\main\java" />
+      <recent name="F:\j2eeProjecet\lear\chuilian\payDemo\src\main\webapp\WEB-INF\lib" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\j2eeProjecet\lear\chuilian" />
       <recent name="F:\j2eeProjecet\lear\chuilian\dataStructuresAndAlgorithms\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="test" />
       <recent name="mytest" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\j2eeProjecet\lear\chuilian\payDemo\src\main\java" />
-      <recent name="F:\j2eeProjecet\lear\chuilian\payDemo\src\main\webapp\WEB-INF\lib" />
-    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.A">
-    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.A" />
-      <module name="dataStructuresAndAlgorithms" />
+  <component name="RunManager" selected="Application.DadeLock">
+    <configuration name="Brank_v0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiayeli.multiThread.threadsync.brankDemo.Brank_v0" />
+      <module name="javaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="com.jiayeli.multiThread.threadsync.brankDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -415,12 +239,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.B" />
-      <module name="dataStructuresAndAlgorithms" />
+    <configuration name="Brank_v1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiayeli.multiThread.threadsync.brankDemo.Brank_v1" />
+      <module name="javaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="com.jiayeli.multiThread.threadsync.brankDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -428,12 +252,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.BankAccount" />
-      <module name="dataStructuresAndAlgorithms" />
+    <configuration name="DadeLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiayeli.multiThread.threadsync.DadeLock" />
+      <module name="javaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="com.jiayeli.multiThread.threadsync.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -441,12 +265,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.stringPatternMatching.BruteForce" />
-      <module name="dataStructuresAndAlgorithms" />
+    <configuration name="SyncCodeBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiayeli.multiThread.threadsync.SyncCodeBlock" />
+      <module name="javaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.stringPatternMatching.*" />
+          <option name="PATTERN" value="com.jiayeli.multiThread.threadsync.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -454,12 +278,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mtest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.list.Mtest" />
-      <module name="dataStructuresAndAlgorithms" />
+    <configuration name="testMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiayeli.multiThread.threadsync.testMethod" />
+      <module name="javaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructure.list.*" />
+          <option name="PATTERN" value="com.jiayeli.multiThread.threadsync.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -468,22 +292,23 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BankAccount" />
-      <item itemvalue="Application.B" />
-      <item itemvalue="Application.Mtest" />
-      <item itemvalue="Application.BruteForce" />
-      <item itemvalue="Application.A" />
+      <item itemvalue="Application.Brank_v1" />
+      <item itemvalue="Application.Brank_v0" />
+      <item itemvalue="Application.SyncCodeBlock" />
+      <item itemvalue="Application.testMethod" />
+      <item itemvalue="Application.DadeLock" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.A" />
-        <item itemvalue="Application.BruteForce" />
-        <item itemvalue="Application.Mtest" />
-        <item itemvalue="Application.B" />
-        <item itemvalue="Application.BankAccount" />
+        <item itemvalue="Application.DadeLock" />
+        <item itemvalue="Application.testMethod" />
+        <item itemvalue="Application.SyncCodeBlock" />
+        <item itemvalue="Application.Brank_v1" />
+        <item itemvalue="Application.Brank_v0" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="StructureViewFactory">
     <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
   </component>
@@ -517,6 +342,13 @@
       <workItem from="1596615102159" duration="29032000" />
       <workItem from="1596890189288" duration="35000" />
       <workItem from="1597738159060" duration="9486000" />
+      <workItem from="1598316009572" duration="1571000" />
+      <workItem from="1599012502679" duration="2521000" />
+      <workItem from="1599096586727" duration="34000" />
+      <workItem from="1599132320189" duration="37000" />
+      <workItem from="1623485778339" duration="29029000" />
+      <workItem from="1624075628163" duration="2424000" />
+      <workItem from="1624334537131" duration="408000" />
     </task>
     <servers />
   </component>
@@ -541,12 +373,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134946000" />
+    <option name="totallyTimeSpent" value="139109000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49452555" visible="true" weight="0.20643431" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49452555" visible="true" weight="0.19906166" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -556,7 +388,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26040268" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26040268" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42281878" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -582,29 +414,9 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/algorithms/Josephus/Josephus.java</url>
-          <line>62</line>
-          <properties />
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-      </breakpoints>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
-    </breakpoint-manager>
+    <option name="version" value="3" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/payDemo/src/main/java/service/IMchInfoService.java" />
-    <entry file="file://$PROJECT_DIR$/payDemo/src/main/java/service/impl/PayChannel4WxServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/payDemo/src/main/java/ctrl/QueryPayOrderController.java" />
     <entry file="file://$PROJECT_DIR$/payDemo/src/main/java/service/channel/alipay/AlipayConfig.java" />
     <entry file="file://$PROJECT_DIR$/alipay/src/main/resources/application.properties" />
@@ -665,9 +477,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -689,9 +498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="16" selection-start-line="16" selection-end-line="17" />
-          <folding>
-            <element signature="e#190#191#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -777,9 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2156">
           <caret line="121" selection-start-line="121" selection-end-line="121" />
-          <folding>
-            <element signature="e#0#33182#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -787,9 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
           <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -797,73 +597,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2728">
           <caret line="147" column="19" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
-          <folding>
-            <element signature="e#5748#5749#0" expanded="true" />
-            <element signature="e#5784#5785#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/dataStructure/list/SeqList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="72" column="15" selection-start-line="72" selection-start-column="15" selection-end-line="72" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/dataStructure/stack/FixedCapacityStackImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/dataStructure/stack/AutoLenthStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/java/jdk/src.zip!/java/lang/CharSequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/java/jdk/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="492" column="32" lean-forward="true" selection-start-line="492" selection-start-column="32" selection-end-line="492" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/java/jdk/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-          <folding>
-            <element signature="e#22786#22787#0" expanded="true" />
-            <element signature="e#22821#22822#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/test/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
+        <state relative-caret-position="220">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/test/B.java">
+    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/dataStructure/list/SeqList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        <state relative-caret-position="1496">
+          <caret line="72" column="15" selection-start-line="72" selection-start-column="15" selection-end-line="72" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -874,14 +621,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/dataStructure/stack/FixedCapacityStackImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/test/B.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/dataStructure/stack/AutoLenthStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/algorithms/stringPatternMatching/MyStr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/algorithms/stringPatternMatching/KMP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/java/jdk/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+          <folding>
+            <element signature="e#22786#22787#0" expanded="true" />
+            <element signature="e#22821#22822#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/java/jdk/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9856">
+          <caret line="492" column="32" selection-start-line="492" selection-start-column="32" selection-end-line="492" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/java/jdk/src.zip!/java/lang/CharSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dataStructuresAndAlgorithms/src/algorithms/stringPatternMatching/BruteForce.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="45" column="23" lean-forward="true" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
-          <folding>
-            <element signature="e#674#675#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="22">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>

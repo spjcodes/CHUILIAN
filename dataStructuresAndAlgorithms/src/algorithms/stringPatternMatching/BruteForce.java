@@ -70,6 +70,4 @@ public class BruteForce {
         return -1;
     }
 
-
-
 }
