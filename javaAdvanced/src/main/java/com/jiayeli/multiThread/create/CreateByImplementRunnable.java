@@ -13,20 +13,23 @@ public class CreateByImplementRunnable implements Runnable{
 
     @Override
     public void run() {
-        Thread.currentThread().setName("threadByRunnable");
+        //Thread.currentThread().setName("threadByRunnable");
         for (int i = 0; i < 10000; i++) {
-            System.out.println(Thread.currentThread().getName() + ": " + i);
+            System.out.println("int run()" + Thread.currentThread().getName() + ": " + i);
         }
     }
 
     public static void main(String[] args) {
-        //在该方法内调用，创建的线程就是当前的线程，故其不会新生成一个新的线程，在其他类中调用才会生成一个并行的线程
+
+        //打印当前线程名
+        System.out.printf("创建main方法的线程为:%s",Thread.currentThread().getName());
+        System.out.println("..........................................................");
+
         CreateByImplementRunnable thread = new CreateByImplementRunnable();
+        //main方法中普通java对象的方法调用，使用的是main线程，并不会创建新的线程
         thread.run();
+        //创建一个新的线程
+        new Thread(thread).start();
 
-        for (int i = 10000; i > 0; i--) {
-
-            System.out.println(Thread.currentThread().getName() + ": " + i);
-        }
     }
 }

@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69283ed1-59c1-4574-ab5b-bca350702a92" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuilian.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/dataStructuresAndAlgorithms.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/algorithms/Josephus/Josephus.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/algorithms/Josephus/Josephus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/algorithms/stringPatternMatching/BruteForce.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/algorithms/stringPatternMatching/BruteForce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/dataStructure/list/顺序存储结构" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructuresAndAlgorithms/src/dataStructure/list/顺序存储结构" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructuresAndAlgorithms/target/classes/algorithms/stringPatternMatching/BruteForce.class" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructuresAndAlgorithms/target/classes/algorithms/stringPatternMatching/BruteForce.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaAdvanced/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/javaAdvanced/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaAdvanced/src/main/java/com/jiayeli/multiThread/RelatedDesginPatterns/TemplateDesgin.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaAdvanced/src/main/java/com/jiayeli/multiThread/RelatedDesginPatterns/TemplateDesgin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaAdvanced/src/main/java/com/jiayeli/multiThread/create/CreateByImplementRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaAdvanced/src/main/java/com/jiayeli/multiThread/create/CreateByImplementRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaAdvanced/src/main/java/com/jiayeli/multiThread/create/MTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaAdvanced/src/main/java/com/jiayeli/multiThread/create/MTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaAdvanced/src/main/javaAdvanced.md" beforeDir="false" afterPath="$PROJECT_DIR$/javaAdvanced/src/main/javaAdvanced.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaAdvanced/target/classes/com/jiayeli/multiThread/create/CreateByImplementRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/javaAdvanced/target/classes/com/jiayeli/multiThread/create/CreateByImplementRunnable.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -108,7 +106,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="E:/apache-maven-3.5.0" />
+        <option name="mavenHome" value="E:\apache-maven-3.5.0" />
         <option name="userSettingsFile" value="D:\.m2\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -203,15 +201,22 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599036633815" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/javaAdvanced/src/main/java/com/jiayeli" />
     <property name="last_opened_file_path" value="E:/java/jdk" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.1515444" />
     <property name="project.structure.side.proportion" value="0.6816092" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.jiayeli.lambdaExepression" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\j2eeProjecet\lear\chuilian\payDemo\src\main\java" />
       <recent name="F:\j2eeProjecet\lear\chuilian\payDemo\src\main\webapp\WEB-INF\lib" />
@@ -220,18 +225,25 @@
       <recent name="F:\j2eeProjecet\lear\chuilian" />
       <recent name="F:\j2eeProjecet\lear\chuilian\dataStructuresAndAlgorithms\src" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.jiayeli.lambdaExepression" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jiayeli.multiThread.productAndConsumer" />
       <recent name="test" />
       <recent name="mytest" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DadeLock">
-    <configuration name="Brank_v0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiayeli.multiThread.threadsync.brankDemo.Brank_v0" />
+  <component name="RunManager" selected="Application.MTest">
+    <configuration name="FileDownload" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiayeli.multiThread.fileDownload.FileDownload" />
       <module name="javaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jiayeli.multiThread.threadsync.brankDemo.*" />
+          <option name="PATTERN" value="com.jiayeli.multiThread.fileDownload.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -239,12 +251,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Brank_v1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiayeli.multiThread.threadsync.brankDemo.Brank_v1" />
+    <configuration name="MTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiayeli.multiThread.create.MTest" />
       <module name="javaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jiayeli.multiThread.threadsync.brankDemo.*" />
+          <option name="PATTERN" value="com.jiayeli.multiThread.create.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -252,12 +264,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DadeLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiayeli.multiThread.threadsync.DadeLock" />
+    <configuration name="ProductConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiayeli.multiThread.productAndConsumer.ProductConsumer" />
       <module name="javaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jiayeli.multiThread.threadsync.*" />
+          <option name="PATTERN" value="com.jiayeli.multiThread.productAndConsumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -265,12 +277,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SyncCodeBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiayeli.multiThread.threadsync.SyncCodeBlock" />
+    <configuration name="ProductConsumer_v1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiayeli.multiThread.productAndConsumer.ProductConsumer_v1" />
       <module name="javaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jiayeli.multiThread.threadsync.*" />
+          <option name="PATTERN" value="com.jiayeli.multiThread.productAndConsumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -278,33 +290,57 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiayeli.multiThread.threadsync.testMethod" />
+    <configuration name="ProductConsumer_v1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiayeli.multiThread.productAndConsumer.ProductConsumer_v1" />
       <module name="javaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jiayeli.multiThread.threadsync.*" />
+          <option name="PATTERN" value="com.jiayeli.multiThread.productAndConsumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductConsumer_v2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiayeli.multiThread.productAndConsumer.ProductConsumer_v2" />
+      <module name="javaAdvanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jiayeli.multiThread.productAndConsumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Brank_v1" />
-      <item itemvalue="Application.Brank_v0" />
-      <item itemvalue="Application.SyncCodeBlock" />
-      <item itemvalue="Application.testMethod" />
-      <item itemvalue="Application.DadeLock" />
+      <item itemvalue="Application.ProductConsumer_v1" />
+      <item itemvalue="Application.ProductConsumer_v2" />
+      <item itemvalue="Application.ProductConsumer" />
+      <item itemvalue="Application.FileDownload" />
+      <item itemvalue="Application.MTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DadeLock" />
-        <item itemvalue="Application.testMethod" />
-        <item itemvalue="Application.SyncCodeBlock" />
-        <item itemvalue="Application.Brank_v1" />
-        <item itemvalue="Application.Brank_v0" />
+        <item itemvalue="Application.MTest" />
+        <item itemvalue="Application.FileDownload" />
+        <item itemvalue="Application.ProductConsumer" />
+        <item itemvalue="Application.ProductConsumer_v2" />
+        <item itemvalue="Application.ProductConsumer_v1" />
       </list>
     </recent_temporary>
   </component>
@@ -349,6 +385,11 @@
       <workItem from="1623485778339" duration="29029000" />
       <workItem from="1624075628163" duration="2424000" />
       <workItem from="1624334537131" duration="408000" />
+      <workItem from="1625294345798" duration="6215000" />
+      <workItem from="1625754160778" duration="2854000" />
+      <workItem from="1625894371967" duration="29877000" />
+      <workItem from="1626449475225" duration="3386000" />
+      <workItem from="1626487761788" duration="6415000" />
     </task>
     <servers />
   </component>

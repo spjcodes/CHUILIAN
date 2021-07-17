@@ -23,11 +23,10 @@ public class MTest {
 
 /**
  * 使用模板模式，将处理逻辑与线程分开。
- * 实现Runnable接口即可成为一个可执行的任务。
+ * 实现Runnable接口即可成为一个可执行的任务。其被标记为可执行任务，然后又jvm创建线程并执行
  */
 //new CreateByImplementRunnable().run();
         Thread thread = new Thread(new CreateByImplementRunnable());
         thread.start();
-
     }
 }

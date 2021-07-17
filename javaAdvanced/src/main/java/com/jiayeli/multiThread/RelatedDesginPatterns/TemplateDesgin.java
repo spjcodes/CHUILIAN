@@ -2,7 +2,7 @@ package com.jiayeli.multiThread.RelatedDesginPatterns;
 
 /**
  * template模式，
- * 模板模式，将具体的算法逻辑和控制逻辑交给父类来实现，将功能模块封装，交由子类去实现具体逻辑
+ * 模板模式，将具体的算法逻辑和控制逻辑交给父类来定义，将功能模块封装，交由子类去实现具体逻辑
  */
 abstract class Diagram {
     //隐藏具体细节，让子类只关注功能模块的实现即可
