@@ -1,4 +1,6 @@
-package test;
+import org.junit.Test;
+
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class A {
 
@@ -18,4 +20,5 @@ public class A {
         String str  = "33254";
         System.out.println(str.charAt(3));
     }
+
 }
