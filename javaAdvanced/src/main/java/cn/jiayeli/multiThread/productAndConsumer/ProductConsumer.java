@@ -104,7 +104,7 @@ class Consumer implements Runnable {
 
 class Product implements Runnable {
 
-    private Cache cache = new Cache();
+    private Cache cache;
 
     public Product(Cache cache) {
         this.cache = cache;
