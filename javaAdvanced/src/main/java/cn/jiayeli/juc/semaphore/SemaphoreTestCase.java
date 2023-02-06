@@ -18,7 +18,6 @@ public class SemaphoreTestCase {
             new Task(semaphore).start();
 
         }
-
     }
 }
 

@@ -3,16 +3,12 @@ import java.util.List;
 import java.util.Scanner;
 
 public class test {
-
+/*
     public static void main(String[] args) {
-      StuScore stu = new test().new StuScore(10);
+      StuScore stu = new StuScore(10);
       stu.disp();
         System.out.println(stu.avg());
-
-
-
-
-    }
+    }*/
 
 
     //1. 定义一个方法，可以接收一个类型为整数数组的参数，并能打印出数组中最大的两个元素
@@ -63,87 +59,6 @@ public class test {
      * 分别存放总分和人数，另有成员函数disp()，用于输出数据成员的值，另有一个静态成员函数avg()，
      * 它用于计算平均分。在main()函数中定义了一个对象数组用于存储输入的学生数据。
      */
-    class Stu{
-        int no;
-        String name;
-        double score;
-
-        Stu() {
-
-        }
-
-        public Stu(int no, String name, double score) {
-            this.no = no;
-            this.name = name;
-            this.score = score;
-        }
-
-        public int getNo() {
-            return no;
-        }
-
-        public void setNo(int no) {
-            this.no = no;
-        }
-
-        public String getName() {
-            return name;
-        }
-
-        public void setName(String name) {
-            this.name = name;
-        }
-
-        public double getScore() {
-            return score;
-        }
-
-        public void setScore(double score) {
-            this.score = score;
-        }
-
-        @Override
-        public String toString() {
-            return "Stu{" +
-                    "no=" + no +
-                    ", name='" + name + '\'' +
-                    ", score=" + score +
-                    '}';
-        }
-    }
-
-    class StuScore{
-        Scanner sc = new Scanner(System.in);
-        List<Stu> stuList = new ArrayList<Stu>();
-
-        StuScore(int n) {
-            while(n-- > 0) {
-                Stu stu = new Stu();
-                System.out.println("请输入学生学号");
-                stu.setNo(sc.nextInt());
-                System.out.println("请输入学生姓名");
-                stu.setName(sc.next());
-                System.out.println("请输入学生成绩");
-                stu.setScore(sc.nextDouble());
-                stuList.add(stu);
-            }
-        }
-
-        double avg() {
-            double sum = 0;
-            for (Stu stu : stuList) {
-                sum += stu.getScore();
-            }
-            return sum/stuList.size();
-        }
-
-        void disp() {
-            stuList.forEach(stu -> {
-                System.out.println(stu.toString());
-            });
-        }
-    }
-
 
     /**
      * 4. 设计一个BankAccount类，实现银行某账号的资金往来账目管理，包括建账号、存入、取出等。
@@ -161,6 +76,87 @@ public class test {
      *    2) 再创建一个类B，使其继承自类A，然后重写A中的MyMethod方法，将A中接收的整型值加50，并输出结果。 
      *    3) 在Main方法中分别创建类A和类B的对象，并分别调用MyMethod方法。
      */
+}
+
+class Stu{
+    int no;
+    String name;
+    double score;
+
+    Stu() {
+
+    }
+
+    public Stu(int no, String name, double score) {
+        this.no = no;
+        this.name = name;
+        this.score = score;
+    }
+
+    public int getNo() {
+        return no;
+    }
+
+    public void setNo(int no) {
+        this.no = no;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public double getScore() {
+        return score;
+    }
+
+    public void setScore(double score) {
+        this.score = score;
+    }
+
+    @Override
+    public String toString() {
+        return "Stu{" +
+                "no=" + no +
+                ", name='" + name + '\'' +
+                ", score=" + score +
+                '}';
+    }
+}
+
+class StuScore{
+    Scanner sc = new Scanner(System.in);
+    List<Stu> stuList = new ArrayList<Stu>();
+
+    StuScore(int n) {
+        while(n-- > 0) {
+            Stu stu = new Stu();
+            System.out.println("请输入学生学号");
+            stu.setNo(sc.nextInt());
+            System.out.println("请输入学生姓名");
+            stu.setName(sc.next());
+            System.out.println("请输入学生成绩");
+            stu.setScore(sc.nextDouble());
+            stuList.add(stu);
+        }
+    }
+
+    double avg() {
+        double sum = 0;
+        for (Stu stu : stuList) {
+            sum += stu.getScore();
+        }
+        return sum/stuList.size();
+    }
+
+    void disp() {
+        stuList.forEach(stu -> {
+            System.out.println(stu.toString());
+        });
+    }
 }
 
 
