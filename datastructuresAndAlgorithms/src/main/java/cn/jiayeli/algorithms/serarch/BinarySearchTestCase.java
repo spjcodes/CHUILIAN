@@ -1,9 +1,6 @@
 package cn.jiayeli.algorithms.serarch;
 
-import jdk.nashorn.internal.runtime.logging.Logger;
-
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 /**
