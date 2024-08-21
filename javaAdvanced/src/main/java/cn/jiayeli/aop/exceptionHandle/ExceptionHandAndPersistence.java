@@ -1,6 +1,6 @@
-package cn.jiayeli.aop;
+package cn.jiayeli.aop.exceptionHandle;
 
-import cn.jiayeli.aop.model.ExceptionInfoModel;
+import cn.jiayeli.aop.exceptionHandle.model.ExceptionInfoModel;
 import com.sun.org.slf4j.internal.Logger;
 import com.sun.org.slf4j.internal.LoggerFactory;
 import net.sf.cglib.proxy.Enhancer;
@@ -10,7 +10,6 @@ import net.sf.cglib.proxy.MethodProxy;
 import java.lang.reflect.Method;
 import java.sql.*;
 import java.util.Arrays;
-import java.util.Date;
 import java.util.Properties;
 
 
@@ -24,12 +23,12 @@ public class ExceptionHandAndPersistence implements MethodInterceptor {
     private Logger log = LoggerFactory.getLogger(ExceptionHandAndPersistence.class);
 
     private Class<?> targetClass;
-    public targetClass createProxyObj(Class<?> targetClas) {
+    public Object createProxyObj(Class<?> targetClas) {
         this.targetClass = targetClas;
         Enhancer enhancer = new Enhancer();
         enhancer.setSuperclass(targetClas);
         enhancer.setCallback(this);
-        targetClass t =  (targetClass) enhancer.create();
+        Object t = enhancer.create();
         return t;
     }
 
@@ -45,8 +44,15 @@ public class ExceptionHandAndPersistence implements MethodInterceptor {
         return result;
     }
 
+    /**
+     * 提取异常对象中的信息到model，并用jdbc写入数据库
+     * @param method 调用的方法
+     * @param objects 方法参数
+     * @param e 异常对象
+     */
     private void persistenceExceptionInfo(Method method, Object[] objects, Throwable e)  {
 
+//        处理异常对象中的信息，赋值给model
         ExceptionInfoModel exceptionInfoModel = new ExceptionInfoModel();
         exceptionInfoModel.setJobName(jobName);
         exceptionInfoModel.setClassName(this.targetClass.getName());

@@ -1,10 +1,6 @@
 package cn.jiayeli.aop;
 
-import net.sf.cglib.proxy.Enhancer;
-import net.sf.cglib.proxy.MethodInterceptor;
-import net.sf.cglib.proxy.MethodProxy;
-
-import java.lang.reflect.Method;
+import cn.jiayeli.aop.model.ExceptionInfoModel;
 
 /**
  * desc:
@@ -15,9 +11,10 @@ import java.lang.reflect.Method;
 public class Application {
 
     public static void main(String args[]) {
-        targetClass proxyObj = new ExceptionHandAndPersistence()
+        targetClass proxyObj = new ExceptionHandAndPersistence("test")
                 .createProxyObj(targetClass.class);
-        proxyObj.hasException("s");
+        String non = proxyObj.non(new ExceptionInfoModel(), true);
+
     }
 
 
@@ -29,5 +26,18 @@ class targetClass {
       if(s.equals("s")) hasException("ss");
       return 1/0;
   }
+
+    public void non(ExceptionInfoModel model) {
+        System.out.println(model.toString());
+    }
+
+    public String non(ExceptionInfoModel model, boolean flag) {
+        System.out.println(model.toString());
+        String className = model.getClassName();
+        if (className.equals("aa")) {
+            System.out.println("aa");
+        }
+        return className;
+    }
 
 }
