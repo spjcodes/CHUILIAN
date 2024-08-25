@@ -36,8 +36,10 @@ public class ExceptionHandAndPersistence implements MethodInterceptor {
     public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy)  {
         Object result = null;
         try {
+            System.out.println(":)\tcglibInterceptInProcessing....");
             result =  methodProxy.invokeSuper(o, objects);
         } catch (Throwable e) {
+            log.error("intercept method catch Exception------");
             persistenceExceptionInfo(method, objects, e);
             throw new RuntimeException(e);
         }

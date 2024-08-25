@@ -26,14 +26,14 @@ import lombok.NoArgsConstructor;
 public class ExceptionInfoModel {
 
     private long id;
-    private String jobName;
-    private String className;
-    private String methodName;
-    private String parameters;
-    private String exceptionType;
-    private String exceptionInfo;
-    private String exceptionStackTrace;
-    private String exceptionLocalizedMessage;
+    private String jobName = "null";
+    private String className = "unknown";;
+    private String methodName = "unknown";;
+    private String parameters = "null";;
+    private String exceptionType = "unknown";;
+    private String exceptionInfo = "null";;
+    private String exceptionStackTrace = "null";;
+    private String exceptionLocalizedMessage = "unknown";;
     private long time;
 
 }

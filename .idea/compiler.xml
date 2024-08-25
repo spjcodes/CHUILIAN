@@ -8,12 +8,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="datastructuresAndAlgorithms" />
-        <module name="payDemo" />
-        <module name="test" />
         <module name="javaAdvanced" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="chuilian" target="1.8" />
       <module name="payDemo" target="1.8" />
       <module name="test" target="1.8" />
     </bytecodeTargetLevel>
