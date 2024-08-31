@@ -1,14 +1,9 @@
 package cn.jiayeli.aop.JDKAOPCase.TestCase;
 
-import cn.jiayeli.aop.JDKAOPCase.TargetClassImpl;
-import cn.jiayeli.aop.JDKAOPCase.TargetInterface;
 import cn.jiayeli.aop.JDKAOPCase.invocationHandles.ApplicationStorage;
-import cn.jiayeli.aop.JDKAOPCase.invocationHandles.ExceptionHandle;
 import cn.jiayeli.aop.JDKAOPCase.invocationHandles.ExceptionHandlePersistence2ES;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import java.lang.reflect.Proxy;
 
 public class Application {
     public static void main(String[] args) {
@@ -16,7 +11,7 @@ public class Application {
         TargetInterface proxyObj = (TargetInterface) Proxy.newProxyInstance(
                 targetClass.getClass().getClassLoader(),
                 targetClass.getClass().getInterfaces(),
-                new ExceptionHandle<TargetInterface>(targetClass)
+                new ExceptionHandle2MySQL<TargetInterface>(targetClass)
             );
 
          proxyObj.nonException();

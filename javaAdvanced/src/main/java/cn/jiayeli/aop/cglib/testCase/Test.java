@@ -13,8 +13,41 @@ import java.util.Arrays;
 
 public class Test {
     public static void main(String[] args) {
-        noArgsConstruct();
-    }
+            int primitiveInt = 10;
+            Integer integerObject = new Integer(10);
+
+            boolean matchedInt = matchTypes(primitiveInt, integerObject);
+            System.out.println("Matched Integer: " + matchedInt);
+
+            double primitiveDouble = 10.0;
+            Double doubleObject = new Double(10.0);
+
+            boolean matchedDouble = matchTypes(primitiveDouble, doubleObject);
+            System.out.println("Matched Double: " + matchedDouble);
+
+        long primitiveLong = 10L;
+        Long longObject = Long.valueOf(10);
+        boolean matchedLong = matchTypes(primitiveLong, longObject);
+        System.out.println("Matched Long: " + matchedDouble);
+
+        float f = 10.00f;
+        Float F = 10.00f;
+        boolean matchedFloat = matchTypes(F, f);
+        System.out.println("Matched Long: " + matchedDouble);
+        }
+
+        public static <T, U> boolean matchTypes(T primitive, U wrapper) {
+            if (primitive.getClass().getName().equals(getWrapperClassName(wrapper))) {
+                return true;
+            }
+            return false;
+        }
+
+        public static <U> String getWrapperClassName(U wrapper) {
+            return wrapper.getClass().getName();
+        }
+//        noArgsConstruct();
+//    }
 
     private static void noArgsConstruct() {
         Enhancer enhancer = new Enhancer();

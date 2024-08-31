@@ -1,7 +1,11 @@
-package cn.jiayeli.aop.JDKAOPCase.invocationHandles;
+package cn.jiayeli.aop.cglib.interceptors;
 
+import cn.jiayeli.aop.JDKAOPCase.invocationHandles.ApplicationStorage;
+import cn.jiayeli.aop.JDKAOPCase.invocationHandles.ExceptionHandlePersistence2ES;
 import cn.jiayeli.aop.exceptionHandle.model.ExceptionInfoModel;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import net.sf.cglib.proxy.Enhancer;
+import net.sf.cglib.proxy.MethodInterceptor;
 import org.apache.http.HttpHost;
 import org.elasticsearch.action.index.IndexRequest;
 import org.elasticsearch.action.index.IndexResponse;
@@ -12,131 +16,58 @@ import org.elasticsearch.common.xcontent.XContentType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.lang.reflect.InvocationHandler;
-import java.lang.reflect.InvocationTargetException;
+
+import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
-import java.lang.reflect.Proxy;
-import java.util.*;
+import java.util.Arrays;
+import java.util.Optional;
+import java.util.Properties;
+import java.util.Random;
 import java.util.concurrent.atomic.AtomicInteger;
 
-/**
- * 处理异常信息并写入ES。
- * ES IndexName 写在配置文件中，
- * 每次生成的日志id是作业名加 . 分割的随机后缀。
- * 要查询同一次执行产生的异常信息，就需要拿id去除 . 及后面的部分去匹配去查询。
- * {
- *         "_index" : "data_sync_exception_info_2024",
- *         "_type" : "_doc",
- *         "_id" : "applicationId_23242343434-424234.1019204576",
- *         "_score" : 1.0,
- *         "_source" : {
- *           "id" : 0,
- *           "jobName" : "applicationId_23242343434-424234",
- *           "className" : "org.apache.logging.slf4j.Log4jLogger",
- *           "methodName" : "error",
- *           "parameters" : "[log.error***********, java.lang.ArithmeticException: / by zero]",
- *           "exceptionType" : "java.lang.ArithmeticException",
- *           "exceptionInfo" : "Cause by: [log.error***********]\n, Exception: java.lang.ArithmeticException: / by zero",
- *           "exceptionStackTrace" : "[cn.jiayeli.aop.JDKAOPCase.TestCase.TestCase.test(Application.java:60), cn.jiayeli.aop.JDKAOPCase.TestCase.Application.main(Application.java:43)]",
- *           "exceptionLocalizedMessage" : "/ by zero",
- *           "time" : 1724864122681
- *         }
- *       }
- *
- * @param <T>
- */
-public class ExceptionHandlePersistence2ES<T> implements InvocationHandler {
+public class ExceptionHandleInterceptor<T> {
 
-    private static RestHighLevelClient client = null;
+    static Logger log = LoggerFactory.getLogger(ExceptionHandleInterceptor.class);
 
-
-    /**
-     * 配置要写道MySQL数据库中的日志级别
-     */
-    private final List<String> logLevers = Arrays.asList("error", "warn");
     ObjectMapper mapper = new ObjectMapper();
     AtomicInteger logCount = new AtomicInteger();
     String defaultIndexName = "data_sync_exception_info";
     String indexName;
     String jobName ;
-    static Logger  log = LoggerFactory.getLogger(ExceptionHandlePersistence2ES.class);
+    private static RestHighLevelClient client = null;
 
-    private T targetObj;
+    private Class<T> targetClazz;
 
-    public ExceptionHandlePersistence2ES(T targetObj) {
-        this.targetObj = targetObj;
+    public T createProxyObj(Class<T> targetClazz, Object... args) throws NoSuchMethodException {
+        Enhancer enhancer = new Enhancer();
+        enhancer.setSuperclass(targetClazz);
+        enhancer.setCallback((MethodInterceptor) (obj, method, p, proxy) -> {
+            Object result = null;
+            try {
+                result = proxy.invokeSuper(obj, p);
+            } catch (Throwable e) {
+                log.debug("ExceptionHandleInterceptor catch Throwable: {}", e.getMessage());
+                persistenceExceptionInfo(method, p, e);
+                throw new RuntimeException(e);
+            }
+            return result;
+        });
         this.jobName = ApplicationStorage.getApplicationId();
-    }
-
-    /**
-     * 创建代理对象
-     * @return
-     */
-    public T createProxyObj() {
-        T proxyObj = (T) Proxy.newProxyInstance(
-                targetObj.getClass().getClassLoader(),
-                targetObj.getClass().getInterfaces(),
-                this
+        this.targetClazz = targetClazz;
+        return (T) enhancer.create(
+                findConstructor(targetClazz, args).getParameterTypes(),
+                args
         );
-        return proxyObj;
     }
 
 
 
-    @Override
-    public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-        Object result = null;
-        try {
-            matchSlf4jInstance(method, args);
-            result = method.invoke(targetObj, args);
-        } catch (IllegalAccessException | IllegalArgumentException | InvocationTargetException e) {
-            persistenceExceptionInfo(method, args, e);
-            throw new RuntimeException(e);
-        }
-        return result;
-    }
-
-    private void matchSlf4jInstance(Method method, Object[] args) {
-
-
-        if(targetObj instanceof Logger) {
-           log.debug("inProgress: {}.{}",  ExceptionHandlePersistence2ES.class.getName(),  "matchSlf4jInstance" );
-           String on = method.getName();
-           List<Object> as = Arrays.asList(args);
-           log.debug("inProgress: {}.{}, methodName: {}, args: {}",
-                   ExceptionHandlePersistence2ES.class.getName(),"matchSlf4jInstance", on, as );
-
-           if (logLevers.contains(Optional.ofNullable(on).orElse("").toLowerCase().trim())) {
-               List<String> errorInfo = new ArrayList<>();
-               as.forEach(
-                   me -> {
-                       if (me instanceof Exception) {
-                           persistenceExceptionAndCauseInfo(method, args, errorInfo.toString(), (Exception) me);
-                           errorInfo.clear();
-                       } else {
-                           errorInfo.add(me.toString());
-                       }
-                   }
-               );
-               if(!errorInfo.isEmpty()) persistenceExceptionAndCauseInfo(method, args, errorInfo.toString(), null);
-           }
-       }
-    }
-
-    static Properties properties = new Properties();
-
-    /**
-     * 提取异常对象中的信息到model，并用jdbc写入数据库
-     * @param method 调用的方法
-     * @param objects 方法参数
-     * @param e 异常对象
-     */
     private void persistenceExceptionInfo(Method method, Object[] objects, Throwable e) {
 
-    // 处理异常对象中的信息，赋值给model
+        // 处理异常对象中的信息，赋值给model
         ExceptionInfoModel exceptionInfoModel = new ExceptionInfoModel();
         exceptionInfoModel.setJobName(this.jobName);
-        Optional.ofNullable(this.targetObj).ifPresent(obj -> exceptionInfoModel.setClassName(((Logger) obj).getName()));
+        Optional.ofNullable(this.targetClazz).ifPresent(obj -> exceptionInfoModel.setClassName(obj.getName()));
         Optional.ofNullable(method).ifPresent(m -> exceptionInfoModel.setMethodName(m.getName()));
         exceptionInfoModel.setParameters(Arrays.toString(objects));
         if (Optional.ofNullable(e).isPresent()) {
@@ -146,6 +77,7 @@ public class ExceptionHandlePersistence2ES<T> implements InvocationHandler {
             exceptionInfoModel.setExceptionLocalizedMessage(e.getLocalizedMessage());
         }
         exceptionInfoModel.setTime(System.currentTimeMillis());
+
 
 
         persistent2ES(exceptionInfoModel);
@@ -164,10 +96,7 @@ public class ExceptionHandlePersistence2ES<T> implements InvocationHandler {
         // 处理异常对象中的信息，赋值给model
         ExceptionInfoModel exceptionInfoModel = new ExceptionInfoModel();
         exceptionInfoModel.setJobName(this.jobName);
-        Optional.ofNullable(this.targetObj).ifPresent(tarObj -> {
-            Logger o = (Logger) this.targetObj;
-            exceptionInfoModel.setClassName(o.getName());
-        });
+        Optional.ofNullable(this.targetClazz).ifPresent(tarObj -> exceptionInfoModel.setClassName(tarObj.getName()));
         Optional.ofNullable(method).ifPresent(m -> exceptionInfoModel.setMethodName(m.getName()));
         exceptionInfoModel.setParameters(Arrays.toString(objects));
         if(Optional.ofNullable(e).isPresent()){
@@ -181,6 +110,7 @@ public class ExceptionHandlePersistence2ES<T> implements InvocationHandler {
     }
 
 
+    static Properties properties = new Properties();
     private void getEsClient() {
         String hostName = "localhost";
         int port = 9200;
@@ -210,7 +140,7 @@ public class ExceptionHandlePersistence2ES<T> implements InvocationHandler {
             if(client == null) {
                 getEsClient();
             }
-            exceptionInfoModel.setId(String.format("%s.%05d", exceptionInfoModel.getJobName(), new Random().nextInt() + logCount.incrementAndGet()));
+            exceptionInfoModel.setId(String.format("%s.%05d", exceptionInfoModel.getJobName(), Math.abs(new Random().nextInt()) + logCount.incrementAndGet()));
             log.debug("insert ExceptionInfoModel to ElasticSearch: {}", exceptionInfoModel);
             log.debug("insert ExceptionInfoModel to ElasticSearch index name: {}", indexName);
             String modelJsonStr = mapper.writeValueAsString(exceptionInfoModel);
@@ -233,4 +163,32 @@ public class ExceptionHandlePersistence2ES<T> implements InvocationHandler {
         }
     }
 
+    public static   Constructor<?> findConstructor(Class<?> clazz, Object... args) {
+        Constructor<?>[] constructors = clazz.getConstructors();
+
+        for (Constructor<?> c : constructors) {
+            if (c.getParameterCount() == Arrays.stream(args).count()) {
+                Class<?>[] parameterTypes = c.getParameterTypes();
+                boolean matches = true;
+                for (int i = 0; i < args.length; i++) {
+                    if (!parameterTypes[i].isInstance(args[i])){
+                        if(matchTypes(parameterTypes[i], args[i]))
+                            matches = false;
+                        break;
+                    }
+                }
+                if (matches)  return c;
+            }
+        }
+        return null;
+    }
+
+    public static <T, U> boolean matchTypes(T primitive, U wrapper) {
+       return  primitive.getClass().getName().equals(getWrapperClassName(wrapper));
+    }
+
+    public static <U> String getWrapperClassName(U wrapper) {
+        return wrapper.getClass().getName();
+    }
 }
+

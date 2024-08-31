@@ -12,7 +12,6 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="chuilian" target="1.8" />
       <module name="payDemo" target="1.8" />
       <module name="test" target="1.8" />
     </bytecodeTargetLevel>

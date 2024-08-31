@@ -12,19 +12,19 @@ import java.lang.reflect.Proxy;
 import java.sql.*;
 import java.util.*;
 
-public class ExceptionHandle<T> implements InvocationHandler {
+public class ExceptionHandle2MySQL<T> implements InvocationHandler {
 
     /**
      * 配置要写道MySQL数据库中的日志级别
      */
     private final List<String> logLevers = Arrays.asList("error", "warn");
 
-    Logger  log = LoggerFactory.getLogger(ExceptionHandle.class);
+    Logger  log = LoggerFactory.getLogger(ExceptionHandle2MySQL.class);
 
     private T targetObj;
     private String applicationId;
 
-    public ExceptionHandle(T targetObj, String applicationId) {
+    public ExceptionHandle2MySQL(T targetObj, String applicationId) {
         this.targetObj = targetObj;
         this.applicationId = applicationId;
     }
@@ -57,11 +57,11 @@ public class ExceptionHandle<T> implements InvocationHandler {
 
     private void matchSlf4jInstance(Method method, Object[] args) {
        if(targetObj instanceof Logger) {
-           log.debug("inProgress: {}.{}",  ExceptionHandle.class.getName(),  "matchSlf4jInstance" );
+           log.debug("inProgress: {}.{}",  ExceptionHandle2MySQL.class.getName(),  "matchSlf4jInstance" );
            String on = method.getName();
            List<Object> as = Arrays.asList(args);
            log.debug("inProgress: {}.{}, methodName: {}, args: {}",
-                   ExceptionHandle.class.getName(),"matchSlf4jInstance", on, as );
+                   ExceptionHandle2MySQL.class.getName(),"matchSlf4jInstance", on, as );
 
            if (logLevers.contains(Optional.ofNullable(on).orElse("").toLowerCase().trim())) {
                List<String> errorInfo = new ArrayList<>();
@@ -88,7 +88,7 @@ public class ExceptionHandle<T> implements InvocationHandler {
      */
     private void persistenceExceptionInfo(Method method, Object[] objects, Throwable e)  {
 
-    // 处理异常对象中的信息，赋值给model
+        // 处理异常对象中的信息，赋值给model
         ExceptionInfoModel exceptionInfoModel = new ExceptionInfoModel();
         exceptionInfoModel.setJobName(this.applicationId);
         Optional.ofNullable(this.targetObj).ifPresent(obj -> exceptionInfoModel.setClassName(obj.getClass().getName()));
