@@ -25,7 +25,7 @@ import lombok.NoArgsConstructor;
 @Builder
 public class ExceptionInfoModel {
 
-    private long id;
+    private String id;
     private String jobName = "null";
     private String className = "unknown";;
     private String methodName = "unknown";;

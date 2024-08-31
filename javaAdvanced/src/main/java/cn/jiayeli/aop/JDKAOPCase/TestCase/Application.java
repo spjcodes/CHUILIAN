@@ -4,6 +4,7 @@ import cn.jiayeli.aop.JDKAOPCase.TargetClassImpl;
 import cn.jiayeli.aop.JDKAOPCase.TargetInterface;
 import cn.jiayeli.aop.JDKAOPCase.invocationHandles.ApplicationStorage;
 import cn.jiayeli.aop.JDKAOPCase.invocationHandles.ExceptionHandle;
+import cn.jiayeli.aop.JDKAOPCase.invocationHandles.ExceptionHandlePersistence2ES;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -23,10 +24,10 @@ public class Application {
         System.out.println("------------------------------------------------\n");
         proxyObj.hasException();
         */
-        String applicationId = "applicationId";
+        String jobName = "applicationId_23242343434-424234";
 
         // 1. 保存ApplicationId，加在main方法里面
-        ApplicationStorage.setApplicationId(applicationId);
+        ApplicationStorage.setApplicationId(jobName);
         /**
          *  Class --> methods: exception --catch--> log.error|info|waring|debug
          */
@@ -49,7 +50,7 @@ class TestCase {
     // 2.
     static Logger log1 = LoggerFactory.getLogger(TestCase.class);
     //3.
-    static Logger log = new ExceptionHandle<>(log1, ApplicationStorage.getApplicationId()).createProxyObj();
+    static Logger log = new ExceptionHandlePersistence2ES<>(log1).createProxyObj();
 
 
     public static void test() {
